@@ -46,7 +46,7 @@ function App() {
             <div style={{ textAlign: "justify" }}>
               <h3> EMANUEL CASAIS</h3>
               <h4>DJ PARTNERT</h4> <p className="paraffoCard">10/06/2024</p>
-              <p className="paraffoCard">BOOSTER SESSION</p>
+              <p className="paraffoCard">LOCAL GROUND SESSION</p>
             </div>
           </div>
           <div className="containerTicket">
@@ -62,7 +62,7 @@ function App() {
         </div>
         <div className="sectionCard">
           <div className="divCards">
-            <img src={ProfileOne} className="imagesCard" />
+            <img src={ProfileTwo} className="imagesCard" />
             <div style={{ textAlign: "justify" }}>
               <h3>JAY DE LYS</h3>
               <h4>DJ INVITE</h4> <p className="paraffoCard">25/12/2024</p>
@@ -82,11 +82,11 @@ function App() {
         </div>
         <div className="sectionCard">
           <div className="divCards">
-            <img src={ProfileOne} className="imagesCard" />
+            <img src={Profilethree} className="imagesCard" />
             <div style={{ textAlign: "justify" }}>
-              <h3> JULLIANA</h3>
-              <h4>DJ INVITE</h4> <p className="paraffoCard">18/09/2024</p>
-              <p className="paraffoCard">TECNO SESSION</p>
+              <h3> MARIANO MELLINO</h3>
+              <h4>DJ INVITE</h4> <p className="paraffoCard">31/12/2024</p>
+              <p className="paraffoCard">EVENTO AÑO NUEVO</p>
             </div>
           </div>
           <div className="containerTicket">
