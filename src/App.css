@@ -1,0 +1,314 @@
+.App {
+  text-align: center;
+  max-width: 1400px;
+  margin: auto;
+}
+.App-header {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+.Logo {
+  width: 10%;
+  margin: auto;
+}
+.DivLi {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+ul {
+  display: flex;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+li {
+  text-decoration: none;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+  margin: 1%;
+  color: #8d8d8d;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+li p {
+  text-align: center;
+  margin: auto;
+}
+
+.Button {
+  display: flex;
+  margin: auto;
+  width: 10%;
+  height: 5%;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #00a6fb;
+  box-shadow: 0px 2px 30px 0px rgba(0, 166, 251, 0.4);
+}
+.Button b {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+/* Banner styles */
+
+.Banner {
+  margin-top: 100px;
+  display: grid;
+  background-image: url("./assets/Banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35rem;
+  position: relative; /* Añade esta propiedad para posicionar elementos hijos relativos a este contenedor */
+  text-align: center;
+}
+.BannerDos {
+  margin-top: 100px;
+  display: grid;
+  background-image: url("./assets/imagesBannercarduno.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35rem;
+  position: relative; /* Añade esta propiedad para posicionar elementos hijos relativos a este contenedor */
+  text-align: center;
+}
+
+.Banner::before {
+  content: ""; /* Necesario para insertar un pseudo-elemento */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    1,
+    0,
+    0,
+    0.507
+  ); /* Ajusta el color de fondo y la opacidad */
+}
+.BannerDos::before {
+  content: ""; /* Necesario para insertar un pseudo-elemento */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    1,
+    0,
+    0,
+    0.507
+  ); /* Ajusta el color de fondo y la opacidad */
+}
+
+/* Agrega estilos para los títulos que pondrás encima */
+.Banner h1,
+.Banner h2,
+.Banner h3 {
+  color: var(--absolute-white, #fff);
+  text-align: center;
+  font-family: Barlow;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1; /* Asegura que los títulos estén por encima del fondo con opacidad */
+  position: relative; /* Asegura que los títulos estén posicionados correctamente */
+}
+.BannerDos h1,
+.BannerDos h2,
+.BannerDos h3 {
+  color: var(--absolute-white, #fff);
+  text-align: center;
+  font-family: Barlow;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1; /* Asegura que los títulos estén por encima del fondo con opacidad */
+  position: relative; /* Asegura que los títulos estén posicionados correctamente */
+}
+
+.tittle {
+  position: relative;
+  top: 10%;
+}
+
+.ParrafoBanner {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  /* Subtitle/Subtitle 1 - Reguler */
+  color: var(--absolute-white, #fff);
+  font-family: Barlow;
+  font-size: 150%;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sectionCardsBanner {
+  display: flex;
+  margin: auto;
+}
+.sectionCardsBanner div h3 {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sectionCardsBanner div {
+  border-radius: 0px 0px 12px 12px;
+  background: #001f3f;
+  width: 45%;
+  height: 358px;
+  flex-shrink: 0;
+  margin: auto;
+}
+.imagesBannerCard {
+  margin-top: 10px;
+  width: 90%;
+  height: 60%;
+  flex-shrink: 0;
+}
+.cardContainer {
+  display: flex;
+  max-width: 1400px;
+}
+.cardContainerh2 {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Raleway;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px; /* 111.538% */
+}
+.sectionCard {
+  border-radius: 18px;
+  border: 1px solid #133150;
+  background: #001b37;
+  width: 25%;
+  height: 20rem;
+  flex-shrink: 0;
+  margin: 20px;
+  display: grid;
+  padding: 20px;
+}
+.divCards {
+  display: flex;
+  text-align: center;
+}
+.divCards h3 {
+  color: #fff;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.divCards h4 {
+  color: #d9d9d9;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.imagesCard {
+  position: relative;
+  margin: auto;
+  border-radius: 58px;
+  border: 2px solid #d9d9d9;
+  width: 20%;
+  height: 58px;
+}
+
+.paraffoCard {
+  color: #8d8d8d;
+  font-feature-settings: "salt" on, "liga" off;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: justify;
+}
+.containerTicket {
+  display: flex;
+}
+.containerTicket .Button {
+  cursor: pointer;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #00a6fb;
+  box-shadow: 0px 2px 30px 0px rgba(0, 166, 251, 0.4);
+}
+
+@media (max-width: 1000px) {
+  .Button {
+    width: 25%;
+  }
+  .DivLi {
+    display: none;
+  }
+  .cardContainer {
+    display: grid;
+  }
+  .sectionCard {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .imagesCard {
+    position: relative;
+    left: -5%;
+    margin: auto;
+    border-radius: 58px;
+    border: 2px solid #d9d9d9;
+    width: 20%;
+    height: 100px;
+  }
+  .divCards h3,
+  h4 {
+    text-align: justify;
+    position: relative;
+    left: -20%;
+  }
+}
