@@ -288,6 +288,9 @@ li p {
   .DivLi {
     display: none;
   }
+  .tittleDos {
+    font-size: 10%;
+  }
   .cardContainer {
     display: grid;
   }

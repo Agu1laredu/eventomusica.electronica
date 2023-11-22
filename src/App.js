@@ -102,7 +102,7 @@ function App() {
         </div>
       </section>
       <section className="BannerDos">
-        <h1 className="tittle">¿PORQUE SOMOS UN EVENTO INOLVIDABLE?</h1>
+        <h1 className="tittleDos">¿PORQUE SOMOS UN EVENTO INOLVIDABLE?</h1>
         <p className="ParrafoBanner">
           Somos más que un evento, somos la sinfonía de momentos inolvidables.
           Descubre la magia que nos hace únicos, ¡porque cada experiencia cuenta
